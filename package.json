@@ -1,7 +1,4 @@
-I see the problem! Your package.json is missing the dependencies section entirely. That's why the modules aren't getting installed.
-Add the dependencies section:
-Update your package.json to include:
-json{
+{
   "name": "genius-stack",
   "version": "1.0.1",
   "description": "CLI tool for creating Vue 3 + Express + Prisma projects",
@@ -17,7 +14,7 @@ json{
     "boilerplate",
     "fullstack"
   ],
-  "author": "Everett Smith <everettsmith928@gmail.com>",
+  "author": "Everett Smith <everett.marsland.smith@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -27,6 +24,7 @@ json{
   "dependencies": {
     "chalk": "^4.1.2",
     "figlet": "^1.7.0",
+    "genius-stack": "^1.0.1",
     "inquirer": "^8.2.6",
     "simple-git": "^3.24.0"
   },
