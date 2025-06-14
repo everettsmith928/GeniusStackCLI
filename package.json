@@ -2,18 +2,23 @@
   "name": "genius-stack",
   "version": "1.0.0",
   "description": "CLI tool for creating Vue 3 + Express + Prisma projects",
+  "main": "bin/genius-stack.js",
   "bin": {
     "genius-stack": "./bin/genius-stack.cmd"
   },
-  "preferGlobal": true,
-  "dependencies": {
-    "chalk": "^4.1.2",
-    "figlet": "^1.8.1",
-    "inquirer": "^8.2.6",
-    "simple-git": "^3.28.0"
+  "keywords": [
+    "cli",
+    "vue",
+    "express",
+    "prisma",
+    "boilerplate",
+    "fullstack"
+  ],
+  "author": "Everett Smith <your.email@example.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/everettsmith928/GeniusStackCLI.git"
   },
-  "devDependencies": {
-    "@types/figlet": "^1.7.0",
-    "@types/inquirer": "^9.0.8"
-  }
+  "homepage": "https://github.com/everettsmith928/GeniusStackCLI#readme"
 }
